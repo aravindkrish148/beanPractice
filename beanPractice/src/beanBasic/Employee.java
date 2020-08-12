@@ -24,5 +24,12 @@ public class Employee {
 	public void setSal(double d) {
 		this.sal = d;
 	} 
+	
+	//Added in 'Commit2'
+	//toString() function definition
+	
+	String toString() {
+		return this.p.toString()+"\nID:"+this.id+"\nSalary:"+this.sal;
+	}
 	 
 }
