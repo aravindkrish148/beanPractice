@@ -18,6 +18,11 @@ public class Person {
 		this.age = age;
 	}
 	
+	//Added in 'Commit2'
+	//toString() function definition
 	
+	String toString() {
+		return "Name:"+this.name+"\nAge:"+this.age;
+	}
 
 }
